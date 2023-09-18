@@ -1,1 +1,1 @@
-# arcade
+# Arcade Docs
