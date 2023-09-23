@@ -3,6 +3,9 @@
 
 Holy moly, its **Frontend for Arcade** (if you come up with a better name pls suggest)
 
+### There is no files for the source code in this repo
+Only documentation.
+
 > Note: Minimum operating system is Windows 10 or later, any older will refuse to load ( RIP windows XP )
 
 ## Adding your game
