@@ -1,5 +1,9 @@
-# Arcade Docs
-This is handy dandy documentation for the arcade machine
+# Arcade Frontend Docs
+<img src='https://github.com/vixenowo/arcade/assets/121322529/f7dac310-5ee1-4496-a2de-f6de30f23694' width='125' alt='Joystick'>
+
+Holy moly, its **Frontend for Arcade** (if you come up with a better name pls suggest)
+
+> Note: Minimum operating system is Windows 10 or later, any older will refuse to load ( RIP windows XP )
 
 ## Adding your game
 
