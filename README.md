@@ -1,10 +1,9 @@
+
+<img src='https://github.com/vixenowo/arcade/assets/121322529/4d61b5e5-ce10-40bf-80a3-d1af693eb4c8' width='50%' alt='Joystick'>
+
 # Arcade Frontend Docs
-<img src='https://github.com/vixenowo/arcade/assets/121322529/f7dac310-5ee1-4496-a2de-f6de30f23694' width='125' alt='Joystick'>
 
-Holy moly, its **Frontend for Arcade** (if you come up with a better name pls suggest)
-
-### There is no files for the source code in this repo
-Only documentation.
+Holy moly, its the handy dandy documentation for Arcadium
 
 > Note: Minimum operating system is Windows 10 or later, any older will refuse to load ( RIP windows XP )
 
