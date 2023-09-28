@@ -2,6 +2,8 @@
 
 So you want to add your own game to the arcade, heres a step by step tutorial to not explode things.
 
+> The "Games" folder is located in Resources > App and then you should see the Games folder
+
 ## First things first:
 1. Create a subfolder in the Games folder (name it anything)
 2. Import your files (exes, folders, etc.)
