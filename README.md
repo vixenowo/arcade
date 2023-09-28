@@ -7,11 +7,16 @@ Holy moly, its the handy dandy documentation for Arcadium
 
 > Note: Minimum operating system is Windows 10 or later, any older will refuse to load ( RIP windows XP )
 
-## Adding your game
+## To do features
+- Switching to attract mode when idle for some time (or at minimum at the game select)
+- Operator menu with JSON editing support
+
+## Guides
+### Adding your game
 
 [Setup Guide](https://github.com/vixenowo/arcade/blob/main/importgames.md#importing-your-games-to-the-arcade "Click to go to page")
 
-## Potential problems and fixes
+### Potential problems and fixes
 
 [Broken cover art](https://github.com/vixenowo/arcade/blob/main/brokencoverart.md#broken-cover-art "Click to go to page")
 
