@@ -10,6 +10,7 @@ Holy moly, its the handy dandy documentation for Arcadium
 ## To do features
 - Switching to attract mode when idle for some time (or at minimum at the game select)
 - Operator menu with JSON editing support
+- Loading animation when game launching
 
 ## Guides
 ### Adding your game
