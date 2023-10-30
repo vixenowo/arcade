@@ -2,7 +2,7 @@
 
 So you want to add your own game to the arcade, heres a step by step tutorial to not explode things.
 
-> The "Games" folder is located in Resources > App and then you should see the Games folder
+> The "Games" folder can be accessed by closing the UI > Start Menu > Games folder (should be pinned)
 
 ## First things first:
 1. Create a subfolder in the Games folder (name it anything)
@@ -24,6 +24,9 @@ if you copied it, it should look something like this:
 }
 ```
 or if you made it new then **copy this code in** (including the brackets)
+
+![warn](https://github.com/vixenowo/arcade/assets/121322529/9bc502e0-ad7d-415b-85a5-8fd86a77e6e1)
+
 
 ## After you done adding the info.json and content 
 Now you can edit the values to be about your game, its important that you make sure to keep the " " inbetween and such.
