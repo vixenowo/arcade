@@ -8,9 +8,7 @@ Holy moly, its the handy dandy documentation for Arcadium
 > Note: Minimum operating system is Windows 10 or later, any older will refuse to load ( RIP windows XP )
 
 ## To do features
-- Switching to attract mode when idle for some time (or at minimum at the game select)
-- Operator menu with JSON editing support
-- Loading animation when game launching
+- Switching to attract mode when idle for some time (to be tested)
 
 ## Guides
 ### Adding your game
