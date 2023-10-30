@@ -9,6 +9,7 @@ Holy moly, its the handy dandy documentation for Arcadium
 
 ## To do features
 - Switching to attract mode when idle for some time (to be tested)
+- Focus on UI after idle ingame for some time + closing game
 
 ## Guides
 ### Adding your game
