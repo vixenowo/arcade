@@ -10,8 +10,12 @@ With the Arcadium Passthrough™ application, it opens a specific game on the em
 
 *RetroArch supports parameters to launch games directly so check that documentation*
 
-## All you have to do:
-All you have to do is change the `GAMELOCATION.ARCADE` to the url of where RetroArch is 
+## All you have to do
+
+BUG: with the current iteration, it doesnt work when running on the UI but I cba to fix it so adjust the code in visual studio to what the folder for your game is called (such as ../mygame/gamelocation.arcade) for the 2 variables on the top
+
+then you can change the `GAMELOCATION.ARCADE` to the url of where RetroArch is
+
 **Make sure its the / and not \ slashes.**
 
 and for launch parameters, change `PARAMETERS.ARCADE` and include them depending on what you need (check retroarch docs)
