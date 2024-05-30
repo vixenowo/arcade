@@ -2,6 +2,8 @@
 <img src='https://github.com/vixenowo/arcade/assets/121322529/4d61b5e5-ce10-40bf-80a3-d1af693eb4c8' width='50%' alt='Joystick'>
 
 # Arcade Frontend Docs
+> [!IMPORTANT]
+> v2 will have changes
 
 Holy moly, its the handy dandy documentation for Arcadium
 
