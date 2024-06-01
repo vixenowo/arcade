@@ -1,73 +1,92 @@
 # Importing your games to the arcade
 
-So you want to add your own game to the arcade, heres a step by step tutorial to not explode things.
+Here is how to install your custom games onto the ArcadeUI
+>[!NOTE]
+> The games folder should be pinned to the start menu
 
-> The "Games" folder can be accessed by closing the UI > Start Menu > Games folder (should be pinned)
+<br>
 
-## First things first:
-1. Create a subfolder in the Games folder (name it anything)
-2. Import your files (exes, folders, etc.)
+## Step 0
+ArcadeUI has support for Cover Images and Background Audio!
+Here is how to create them
 
-## Then next:
-Create a file called
-` info.json `
-or just nick one from another game and copy n paste to your folder (with ur game in)
+### Cover Image
+<img src="https://github.com/vixenowo/arcade/assets/121322529/fbdeace0-1c8b-44b1-9c3b-c81eea9f47a4" width="300" height="400">
+<br><br>
 
-if you copied it, it should look something like this: 
+This will show on the game selection screen and when the game has been selected
+
+> [!TIP]
+> - **Width:** 900px width
+> - **Width:** 1200px height
+> - PNG, JPG/JPEG recommended
+
+  
+Images are automatically crop to fit.
+
+<br>
+
+### Audio
+This will play when your option is hovered over on the game selector, it can be any length but shorter is better
+
+> [!TIP]
+> - Make sure not too loud or too quiet!
+> - MP3 recommended
+
+<br>
+
+And there we are! Now for adding the game itself.
+
+<br>
+
+## Step 1
+Create a folder in the **Games** folder, you can call it whatever but preferably named after your game
+
+<br>
+
+## Step 2
+Put all your files into the folder, make sure that the **.exe** is in the folder you just made
+
+> [!NOTE]
+> Put the Cover Image and Audio file in the same folder
+
+<br>
+
+## Step 3
+Create a file called `status.json` in the folder and put this inside of the file:
+
 ```
 {
-    "title": "My Game",
-    "description": "This is an exciting game.",
-    "author": "arcadian",
-    "icon": "https://cdn-icons-png.flaticon.com/512/742/742263.png",
-    "banner": "./Games/game2/icon.png"
+    "title": "[change_this]",
+    "year": "[change_this]",
+    "coverImage": "./Games/[your_folder]/[file_name].png",
+    "description": "[change_this]",
+    "soundUrl": "./Games/[your_folder]/[file_name].mp3"
 }
 ```
-or if you made it new then **copy this code in** (including the brackets)
 
-![warn](https://github.com/vixenowo/arcade/assets/121322529/9bc502e0-ad7d-415b-85a5-8fd86a77e6e1)
+> [!IMPORTANT]
+> Replace all the [change_this] with any details you want about your game, the titles on the left show what to put.
+> 
+> Replace all the [your_folder] to the name of your folder you made.
+>
+> Replace all the [file_name] with the file names of your CoverImage and SoundURL, you can change the .png / .mp3 depending on which you have
 
+Once finished, it should look like something like this this:
+```
+{
+    "title": "Example game",
+    "year": "2024",
+    "coverImage": "./Games/ExampleGame/coverimage.png",
+    "description": "This is an example game",
+    "soundUrl": "./Games/ExampleGame/sound.mp3"
+}
+```
 
-## After you done adding the info.json and content 
-Now you can edit the values to be about your game, its important that you make sure to keep the " " inbetween and such.
+<br>
 
-> Do NOT use vertical line ( | ) for any names, authors, description, etc. this will cause problems as its a reserved character
+## Step 4
 
-### Title
-Self explainitory, it isnt recommended to make it too long as it will be cut off if too long.
+Test to make sure it shows up and launches as expected, if it doesnt work then try this tutorial again
 
-### Description
-Also self explanitory.
-
-### Author
-This shows as *Created by (your author name*, pick anything PG i guess
-
-### Icon
-This is the cover art in the game picker
-
-- Minimum size: 200px by 300px (width, height)
-- Recommended size: 800px by 1200px (width, height)
-
-Any lower will make it blurry and too high quality can cause it to load slowly
-
-![image](https://github.com/vixenowo/arcade/assets/121322529/94ce65a7-f07a-430f-97a1-8c0412d63c52)
-
-### Banner
-This is the image that shows up when your game is hover overed (itll show your game details on hover too)
-
-- Recommended size: 2600px by 673px (width, height)
-
-Take note of the fade on the left too
-
-![image](https://github.com/vixenowo/arcade/assets/121322529/189bc3d1-a1b3-4ad2-a3fb-4757515c879c)
-
-### Adding images
-
-If your getting an image from a website then just put the link to the image in there (the image, not the webpage)
-but if your adding your own image then put it in the same folder as exe and json, you can call it anything and in the json file put
-
-`"./Games/game2/icon.png"`
-(replace game2 and icon.png with what you called your folder and image)
-
-## Congrats
-The program should automatically detect the files and show up in the game
+If it does work, then great success!
