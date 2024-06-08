@@ -39,7 +39,7 @@ This will play when your option is hovered over on the game selector, it can be 
 Create a folder in the **Games** folder, this folder is pinned in the start menu.
 
 > [!IMPORTANT]
-> The folder MUST be the same name as your game .exe name or it won't show up.
+> The folder **MUST** be the same name as your game .exe name or it won't show up.
 > For example: if it was called test.exe then call the folder "test".
 
 <br>
