@@ -62,7 +62,8 @@ Create a file called `status.json` in the folder and put this inside of the file
     "creator": "[change_this]",
     "coverImage": "./Games/[your_folder]/[file_name].png",
     "description": "[change_this]",
-    "soundUrl": "./Games/[your_folder]/[file_name].mp3"
+    "soundUrl": "./Games/[your_folder]/[file_name].mp3",
+    "video": "./Games/[your_folder]/[file_name].mp4"
 }
 ```
 
@@ -98,6 +99,11 @@ Describe your game, pretty simple
 The audio that plays when your game is selected
 - It is explained in Part 0 again, [here](https://github.com/vixenowo/arcade/edit/main/importgames.md#audio)
   
+### Video
+Video plays when idle over your game for 20 seconds (not required)
+- **File type:** mp4, webm, ogg ONLY
+- Any length or size
+
 <br>
 
 Once finished, it should look like something like this this:
@@ -108,7 +114,8 @@ Once finished, it should look like something like this this:
     "creator": "SillyCat",
     "coverImage": "./Games/ExampleGame/coverimage.png",
     "description": "This is an example game",
-    "soundUrl": "./Games/ExampleGame/sound.mp3"
+    "soundUrl": "./Games/ExampleGame/sound.mp3",
+    "video": "./Games/ExampleGame/video.mp4"
 }
 ```
 
